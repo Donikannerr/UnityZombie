@@ -45,7 +45,7 @@ public class ZombieController : MonoBehaviour
         }
         else
         {
-           
+            anim.SetBool("isRunning", false);
         }
     }
 
